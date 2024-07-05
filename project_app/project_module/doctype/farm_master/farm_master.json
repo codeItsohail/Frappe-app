@@ -1,0 +1,101 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "PRE.#####",
+ "creation": "2024-07-04 01:34:16.678539",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "survey_no",
+  "farmer_name",
+  "village",
+  "district",
+  "column_break_4u67",
+  "farm_area",
+  "soil_type",
+  "irrigation_method",
+  "section_break_kkln",
+  "farm_location"
+ ],
+ "fields": [
+  {
+   "fieldname": "survey_no",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Survey No ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "farmer_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Farmer Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "village",
+   "fieldtype": "Data",
+   "label": "Village"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Data",
+   "label": "District"
+  },
+  {
+   "fieldname": "column_break_4u67",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "farm_area",
+   "fieldtype": "Int",
+   "label": "Farm Area in Acres"
+  },
+  {
+   "fieldname": "soil_type",
+   "fieldtype": "Select",
+   "label": "Soil Type (Black / Red / Grey)",
+   "options": "Black\nRed\nGray"
+  },
+  {
+   "fieldname": "irrigation_method",
+   "fieldtype": "Select",
+   "label": "Irrigation Method (River / Borewell / Other)",
+   "options": "River\nBorewell\nOther"
+  },
+  {
+   "fieldname": "section_break_kkln",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "farm_location",
+   "fieldtype": "Geolocation",
+   "label": "Farm location (Geo location - Latitude & Longitute from"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-04 01:39:53.356025",
+ "modified_by": "Administrator",
+ "module": "project_module",
+ "name": "Farm Master",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
