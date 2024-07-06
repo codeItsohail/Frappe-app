@@ -2,40 +2,20 @@
 
 Its an project app 
 
-### Installation
-
-You can install this app using the [bench](https://github.com/frappe/bench) CLI:
-
-```bash
-cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch develop
-bench install-app project_app
-```
-
-### Contributing
-
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
-
-```bash
-cd apps/project_app
-pre-commit install
-```
-
-Pre-commit is configured to use the following tools for checking and formatting your code:
-
-- ruff
-- eslint
-- prettier
-- pyupgrade
-
-### CI
-
-This app can use GitHub Actions for CI. The following workflows are configured:
-
-- CI: Installs this app and runs unit tests on every push to `develop` branch.
-- Linters: Runs [Frappe Semgrep Rules](https://github.com/frappe/semgrep-rules) and [pip-audit](https://pypi.org/project/pip-audit/) on every pull request.
+git remote add origin https://github.com/codeItsohail/Frappe-app.git
 
 
-### License
+### 1.Create a deployable app of frappe which will have following features.
 
-mit
+### a. Doctype Name – Farm Master: Create Agriculture Farm Master and it should have
+###    the farm survey no, Farm location, address, Name of the owner, Area, irrigation type.
+
+| Farm Master (Unique Number)           | Sample Data  |
+|---------------------------------------|--------------|
+| Survey No                             | 345          |
+| Farmer Name                           | Amit Patil   |
+| Village                               | Mirajwadi    |
+| District                              | Sangli       |
+| Farm Area in Acres                    | 3            |
+| Soil Type (Black / Red / Grey)        | Black        |
+| Irrigation Method                     | River        |
